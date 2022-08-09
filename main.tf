@@ -24,7 +24,7 @@ resource "azurerm_subnet" "subnet" {
     ]
 }
 
-resource "azurerm_subnet" "subnet" {    
+resource "azurerm_subnet" "subnetB" {    
     name                 = "SubnetB"
     resource_group_name  = local.resource_group_name
     virtual_network_name = local.virtual_network.name
